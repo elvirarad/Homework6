@@ -45,7 +45,7 @@ public class Main {
         System.out.println("Решение задачи № 2.1");
         for (int i = 1904; i <= 2096; i = i + 4) {
             if (i % 100 != 0) {
-                System.out.println("високосный год: " + i);
+                System.out.println(i + " год является високосным");
             }
         }
         System.out.println(" ");
@@ -94,7 +94,7 @@ public class Main {
         for (int i = 1; i <= 12; i++){
             total = total + total / 100;
             total = total + salary;
-            System.out.println( "Итого за " + i + " месяц накоплено  " + total + " рублей");
+            System.out.println( "Итого за " + i + " месяц накоплено  " + total + " рублей с учётом 12% годовых по вкладу");
         }
         System.out.println( "Сумма накоплений = " + total + " рублей");
     }
